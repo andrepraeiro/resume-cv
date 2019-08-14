@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;    
+}
+
+@page {
+    size: 21cm 29.7cm;
+    /* margin: 30mm 45mm 30mm 45mm; */
+     /* change the margins as you want them to be. */
+     
+}
+/* html,
+body {
+    height: 100%;
+} */
+
+body {
+    background: #fff;
+    font-size: 14px;
+    border: 1px solid #000;
+}
+
+.header {
+    margin-top: 0.8cm;
+    margin-left: 0.8cm;    
+    display: flex; 
+    align-content: space-between;    
+    height: 4cm;
+    width: 15cm;    
+}
+
+.photo {
+    margin-right: 1cm;
+}
+
+.photo img {
+    border-radius: 100px;
+    display: block;
+    width: 4cm;
+    height: 4cm;
+}
+
+.header .title {    
+    
+    width: 20cm;
+    background-color: #0c988a;
+    color: #fff;
+    padding: 5mm;
+}
+
+.title  h1 {        
+    font-size: 28pt;
+    font-weight: 100;
+    
+}
+.header h3 {
+    border-bottom: 2px solid #fff;
+    width: 15cm;    
+}
+
+.header p {
+    margin-top: 0.5cm;
+    font-weight: 100;
+}
+
+.side-lane {
+    background: #fff;
+    width: 5cm;
+    height: 20cm;
+    margin-left: 5mm;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+
+}
+
+.side-lane div{   
+    font-size: 14px;
+    margin: 3px 0;
+}
+.side-lane .email img{    
+    height: 15px;
+    width: 20px;
+}
+
+.side-lane .cel img{    
+    height: 20px;
+    width: 12px;
+}
+.side-lane .place img{    
+    height: 20px;
+    width: 15px;
+}
+
+.side-lane .linkedin img{    
+    height: 15px;
+    width: 20px;
+}
+
+.side-lane .skype img{    
+    height: 20px;
+    width: 20px;
+}
+
+.skills .title {
+    text-transform: uppercase;
+    color: #0c988a;    
+    border-bottom: 2px solid #0c988a;
+    font-weight: bold;
+}
+
+.skills ul {
+    list-style: none;    
+}
+
+.skills li {
+    color: #fff;
+    margin: 5px 2px;
+    background: #0c988a;
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+.languages .title {
+    text-transform: uppercase;
+    color: #0c988a;    
+    border-bottom: 2px solid #0c988a;
+    font-weight: bold;
+}
